@@ -1,4 +1,5 @@
-import React, { PropTypes } from "react";
+import React from "react";
+import PropTypes from "prop-types";
 
 function Button(props) {
   return <button style={{ background: props.color }}>{props.children}</button>;

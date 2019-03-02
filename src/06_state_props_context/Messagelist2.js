@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from "react";
+import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 function Button(props, context) {
   return (
@@ -27,6 +28,7 @@ Message.propTypes = {
 };
 
 class MessageList extends Component {
+  //任何層級皆可存取context的color
   getChildContext() {
     return { color: "gray" };
   }

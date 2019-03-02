@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from "react";
+import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 function Content(props) {
   return <p>Content組件的props.value：{props.value}</p>;
