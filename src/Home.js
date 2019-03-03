@@ -8,6 +8,7 @@ class Home extends React.Component {
         <Link to="/04_dev_server/DevServer">
           <div>04_dev_server</div>
         </Link>
+
         <Link to="/05_jsx/Jsx">
           <div>05_jsx</div>
         </Link>
@@ -20,13 +21,13 @@ class Home extends React.Component {
           <div>07_element_instance</div>
         </Link>
 
-        {/*<Link to="/08_start_redux/StartRedux/" style={{ color: "black" }}>
-          <div>08_start_redux(自動)</div>
+        <Link to="/08_start_redux/StartRedux/">
+          <div>08_start_redux</div>
         </Link>
 
-        <Link to="/09_redux_thunk/ReduxThunk/" style={{ color: "black" }}>
-          <div>09_redux_thunk(自動)</div>
-        </Link>*/}
+        <Link to="/09_redux_thunk/ReduxThunk/">
+          <div>09_redux_thunk</div>
+        </Link>
       </div>
     );
   }
