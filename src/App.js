@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./Home";
+import TestReact from "./00_test/TestReact";
 import DevServer from "./04_dev_server/DevServer";
 import Jsx from "./05_jsx/Jsx";
 import StatePropsContext from "./06_state_props_context/StatePropsContext";
@@ -23,6 +24,7 @@ class App extends React.Component {
       <Router>
         <div>
           <Route path="/" component={Home} />
+          <Route path="/00_test/TestReact" component={TestReact} />
           <Route path="/04_dev_server/DevServer" component={DevServer} />
           <Route path="/05_jsx/Jsx" component={Jsx} />
           <Route

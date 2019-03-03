@@ -5,6 +5,10 @@ class Home extends React.Component {
   render() {
     return (
       <div>
+        <Link to="/00_test/TestReact">
+          <div>00_test</div>
+        </Link>
+
         <Link to="/04_dev_server/DevServer">
           <div>04_dev_server</div>
         </Link>
