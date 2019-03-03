@@ -44,6 +44,10 @@ class Home extends React.Component {
         <Link to="/13_counter_test/CounterTest/">
           <div>13_counter_test</div>
         </Link>
+
+        <Link to="/14_15_todomvc/TodoMVC/">
+          <div>14_15_todomvc</div>
+        </Link>
       </div>
     );
   }
