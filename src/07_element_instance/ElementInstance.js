@@ -5,10 +5,17 @@ import App from "./App";
 let instance;
 
 class ElementInstance extends React.Component {
+  //第一次繪製後呼叫
   componentDidMount() {
     console.log("首次掛載");
     instance = render(<App />, document.getElementById("elementInstance"));
   }
+
+  //第一次繪製前呼叫
+  /*componentWillMount() {
+    console.log("首次掛載");
+    instance = render(<App />, document.getElementById("elementInstance"));
+  }*/
 
   renderComponent = () => {
     console.log("掛載");
