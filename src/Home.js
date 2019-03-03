@@ -32,6 +32,10 @@ class Home extends React.Component {
         <Link to="/10_counter/CounterIndex/">
           <div>10_counter</div>
         </Link>
+
+        <Link to="/11_counter_connect/CounterConnect/">
+          <div>11_counter_connect</div>
+        </Link>
       </div>
     );
   }
