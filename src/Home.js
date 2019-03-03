@@ -28,6 +28,10 @@ class Home extends React.Component {
         <Link to="/09_redux_thunk/ReduxThunk/">
           <div>09_redux_thunk</div>
         </Link>
+
+        <Link to="/10_counter/CounterIndex/">
+          <div>10_counter</div>
+        </Link>
       </div>
     );
   }

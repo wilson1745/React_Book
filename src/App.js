@@ -5,9 +5,9 @@ import DevServer from "./04_dev_server/DevServer";
 import Jsx from "./05_jsx/Jsx";
 import StatePropsContext from "./06_state_props_context/StatePropsContext";
 import ElementInstance from "./07_element_instance/ElementInstance";
-
 import StartRedux from "./08_start_redux/StartRedux";
 import ReduxThunk from "./09_redux_thunk/ReduxThunk";
+import CounterIndex from "./10_counter/CounterIndex";
 
 /*export default function App() {
    return <h1>hello world</h1>;
@@ -31,6 +31,7 @@ class App extends React.Component {
           />
           <Route path="/08_start_redux/StartRedux" component={StartRedux} />
           <Route path="/09_redux_thunk/ReduxThunk" component={ReduxThunk} />
+          <Route path="/10_counter/CounterIndex" component={CounterIndex} />
         </div>
       </Router>
     );
