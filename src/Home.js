@@ -40,6 +40,10 @@ class Home extends React.Component {
         <Link to="/12_undo_devtools/UndoDevtools/">
           <div>12_undo_devtools</div>
         </Link>
+
+        <Link to="/13_counter_test/CounterTest/">
+          <div>13_counter_test</div>
+        </Link>
       </div>
     );
   }

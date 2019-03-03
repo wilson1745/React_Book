@@ -10,6 +10,7 @@ import ReduxThunk from "./09_redux_thunk/ReduxThunk";
 import CounterIndex from "./10_counter/CounterIndex";
 import CounterConnect from "./11_counter_connect/CounterConnect";
 import UndoDevtools from "./12_undo_devtools/UndoDevtools";
+import CounterTest from "./13_counter_test/CounterTest";
 
 /*export default function App() {
    return <h1>hello world</h1>;
@@ -42,6 +43,7 @@ class App extends React.Component {
             path="/12_undo_devtools/UndoDevtools"
             component={UndoDevtools}
           />
+          <Route path="/13_counter_test/CounterTest" component={CounterTest} />
         </div>
       </Router>
     );
