@@ -9,6 +9,7 @@ import StartRedux from "./08_start_redux/StartRedux";
 import ReduxThunk from "./09_redux_thunk/ReduxThunk";
 import CounterIndex from "./10_counter/CounterIndex";
 import CounterConnect from "./11_counter_connect/CounterConnect";
+import UndoDevtools from "./12_undo_devtools/UndoDevtools";
 
 /*export default function App() {
    return <h1>hello world</h1>;
@@ -36,6 +37,10 @@ class App extends React.Component {
           <Route
             path="/11_counter_connect/CounterConnect"
             component={CounterConnect}
+          />
+          <Route
+            path="/12_undo_devtools/UndoDevtools"
+            component={UndoDevtools}
           />
         </div>
       </Router>

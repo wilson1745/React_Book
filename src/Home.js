@@ -36,6 +36,10 @@ class Home extends React.Component {
         <Link to="/11_counter_connect/CounterConnect/">
           <div>11_counter_connect</div>
         </Link>
+
+        <Link to="/12_undo_devtools/UndoDevtools/">
+          <div>12_undo_devtools</div>
+        </Link>
       </div>
     );
   }
