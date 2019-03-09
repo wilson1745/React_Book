@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="testreact"></div>
+    <div id="elementInstance"></div>
+    <div id="counter"></div>
+    <div id="todomvc"></div>
+    <script src="/static/bundle.js"></script>
+  </body>
+</html>
