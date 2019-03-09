@@ -48,7 +48,7 @@ const playerFun = {
 playerFun.sayName();
 playerFun.sayName("Hello Test");
 
-/*class TestReact {
+class TestReact {
   constructor(fullName, age, gender, hairColor) {
     this.fullName = fullName;
     this.age = age;
@@ -57,15 +57,28 @@ playerFun.sayName("Hello Test");
   }
 
   toString() {
-      return "Name: " + this.fullName + ", Age: " + this.age;
+    return "Name: " + this.fullName + ", Age: " + this.age;
   }
 }
 
 const inori = new TestReact("Inori", 16, "girl", "pink");
 console.log(inori.toString());
-console.log(inori.fullName);*/
+console.log(inori.fullName);
 
-class TestReact extends Component {
+const { user: x1 } = { user: 5 };
+console.log("x1 ", x1);
+
+const {
+  prop: x2,
+  prop2: {
+    prop2: {
+      nested: [, , b]
+    }
+  }
+} = { prop: "Hello", prop2: { prop2: { nested: ["a", "b", "c"] } } };
+console.log("x2, b", x2, b);
+
+/*class TestReact extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -82,4 +95,4 @@ class TestReact extends Component {
   }
 }
 
-export default TestReact;
+export default TestReact;*/
