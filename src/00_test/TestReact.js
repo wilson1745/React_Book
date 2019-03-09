@@ -46,7 +46,7 @@ const playerFun = {
 };
 
 playerFun.sayName();
-playerFun.sayName("Hello");
+playerFun.sayName("Hello Test");
 
 /*class TestReact {
   constructor(fullName, age, gender, hairColor) {
