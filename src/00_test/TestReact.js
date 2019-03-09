@@ -1,29 +1,36 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { createStore } from "redux";
-import { render, unmountComponentAtNode } from "react-dom";
+import React, { Component } from "react";
+import TodoList from "./components/TodoList";
+import TodoAdd from "./components/TodoAdd";
 
-const rootEl = document.getElementById("testreact");
+const todos = [
+  {
+    task: "Install packages",
+    isCompleted: false
+  },
+  {
+    task: "Add webpack.config.js",
+    isCompleted: false
+  },
+  {
+    task: "Break UI into components",
+    isCompleted: false
+  }
+];
 
-function getName() {
-  return "World";
-}
+class TestReact extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      todos
+    };
+  }
 
-const ele = <h1>Hello, {getName()}!</h1>;
-
-function HandleStore() {
-  const func = () => {
-    ReactDOM.render(ele, rootEl);
-  };
-  return <p>{func()}</p>;
-}
-
-class TestReact extends React.Component {
   render() {
     return (
       <div>
-        <h1>Start Test</h1>
-        <HandleStore />
+        <h1>React Todo List</h1>
+        <TodoAdd />
+        <TodoList todos={this.state.todos} />
       </div>
     );
   }
