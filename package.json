@@ -16,6 +16,7 @@
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "redux": "^3.2.1",
+    "redux-form": "7.0.4",
     "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
