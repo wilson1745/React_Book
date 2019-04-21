@@ -155,6 +155,23 @@ console.log("combine ", combine);
 var pets = ["cat", "dog", "bat"];
 console.log("pets.includes(cat) ", pets.includes("cat"));
 
+const funcB = x => {
+  return x + 1;
+};
+console.log("return x + 1 ", funcB(6));
+const funcC = x => {
+  x + 1;
+};
+console.log("return x + 1 ", funcC(6)); // undefined
+
+const calculate = {
+  array: [1, 2, 3],
+  sum: () => {
+    return array.reduce((result, item) => result + item);
+  }
+};
+console.log(calculate.sum());
+
 /*class TestReact extends Component {
   constructor(props) {
     super(props);
